@@ -272,7 +272,7 @@ def run_programs(app, doctree):
                 )
 
             new_node = node_class(output, output)
-            new_node['language'] = 'text'
+            new_node['language'] = 'json'
             node.replace_self(new_node)
 
 
